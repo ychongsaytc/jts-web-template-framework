@@ -1,0 +1,13 @@
+{
+	"name": "",
+	"description": "",
+	"minimum-stability": "dev",
+	"config": {
+		"preferred-install": "dist"
+	},
+	"require": {
+		"php": ">=5.5.0",
+		"slim/slim": "*",
+		"slim/twig-view": "*"
+	}
+}

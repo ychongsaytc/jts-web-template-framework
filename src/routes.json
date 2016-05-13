@@ -1,0 +1,17 @@
+{
+	"/": {
+		"file": "index.html",
+		"data": {
+			"foo": "bar"
+		}
+	},
+	"/about": {
+		"file": "about.html"
+	},
+	"/about/company": {
+		"file": "company.html",
+		"data": {
+			"sitename": "JST Framework"
+		}
+	}
+}

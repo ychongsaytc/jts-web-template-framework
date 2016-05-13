@@ -1,0 +1,9 @@
+node_modules
+.sass-cache
+composer.lock
+vendor
+/env/python/.Python
+/env/python/bin
+/env/python/include
+/env/python/lib
+/env/python/pip-selfcheck.json

@@ -1,0 +1,16 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>{% block title %}{{ sitename }}{% endblock %}</title>
+		<link href="/assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<link href="/assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
+		<!--[if IE]>
+			<link href="/assets/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<![endif]-->
+	</head>
+	<body>
+		{% block content %}{% endblock %}
+		<script type="text/javascript" src="/assets/js/web.js"></script>
+	</body>
+</html>
