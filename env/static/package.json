@@ -1,0 +1,11 @@
+{
+	"name": "",
+	"version": "",
+	"description": "",
+	"private": true,
+	"dependencies": {
+		"gulp": "*",
+		"swig": "*",
+		"mkdirp": "*"
+	}
+}

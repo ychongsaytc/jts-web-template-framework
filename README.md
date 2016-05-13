@@ -1,7 +1,7 @@
 
 # JTS Web Template Framework
 
-Write templates in any of [Jinja](http://jinja.pocoo.org/)~[Twig](http://twig.sensiolabs.org/)~[Swig](http://paularmstrong.github.io/swig/)~[Django](https://www.djangoproject.com/) and run in Python~PHP~Node.js
+Write templates in any of [Jinja](http://jinja.pocoo.org/)~[Twig](http://twig.sensiolabs.org/)~[Swig](http://paularmstrong.github.io/swig/) and run in Python~PHP~Node.js
 
 ### Usage
 
@@ -36,5 +36,13 @@ $ sh app.sh 1336
 $ cd env/node
 $ npm install
 $ node app.js 1337
+```
+
+##### Generate website for static hosting
+
+```shell
+$ cd env/static
+$ npm install
+$ gulp
 ```
 

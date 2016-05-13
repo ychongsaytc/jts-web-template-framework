@@ -44,14 +44,14 @@ if __name__ == '__main__':
 	tornado.options.parse_command_line()
 
 	settings = {
-		'template_loader': Jinja2Loader(abspath+'/../../../src/views'),
+		'template_loader': Jinja2Loader(abspath+'/../../src/views'),
 		'debug'          : True,
 	}
 
-	with open(abspath+'/../../../src/routes.json') as file:    
+	with open(abspath+'/../../src/routes.json') as file:    
 		routes = json.load(file)
 
-	with open(abspath+'/../../../src/data.json') as file:    
+	with open(abspath+'/../../src/data.json') as file:    
 		data = json.load(file)
 
 	handlers = list()
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 	for route in routes:
 		handlers.append((route, MainHandler));
 
-	handlers.append((r'/(.*)', tornado.web.StaticFileHandler, {'path': abspath+'/../../../src/static'}));
+	handlers.append((r'/(.*)', tornado.web.StaticFileHandler, {'path': abspath+'/../../src/static'}));
 
 	application = tornado.web.Application(handlers, **settings)
 	application.listen(tornado.options.options.port)
