@@ -1,4 +1,8 @@
 
+## DEPRECATED
+
+This project is deprecated and no longer being maintained.
+
 # JTS Web Template Framework
 
 Write templates in any of [Jinja](http://jinja.pocoo.org/)~[Twig](http://twig.sensiolabs.org/)~[Swig](http://paularmstrong.github.io/swig/) and run in Python~PHP~Node.js
